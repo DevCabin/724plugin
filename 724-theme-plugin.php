@@ -315,7 +315,17 @@ function my_theme_register_required_plugins() {
 			'name' 		=> 'WCK Custom Post Types',
 			'slug' 		=> 'wck-custom-fields-and-custom-post-types-creator',
 			'required' 	=> false,
-		),		
+		),
+		array(
+			'name' 		=> 'Search Everything',
+			'slug' 		=> 'search-everything',
+			'required' 	=> false,
+		),
+		array(
+			'name' 		=> 'Contact Form 7',
+			'slug' 		=> 'contact-form-7',
+			'required' 	=> false,
+		),
 		
 
 	);
