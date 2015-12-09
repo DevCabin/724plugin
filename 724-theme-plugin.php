@@ -147,7 +147,7 @@ function s_theme_head_stuff() {
 		$full_content = get_the_content(); // the_content minus formatting
 		$new_content = strip_tags($full_content); // remove any formatting left
 ?>
-<meta name="description" content="<?php wp_title(); ?> - echo substr($new_content, 0, 60);?> - <?php bloginfo('name'); ?>"  /> 
+<meta name="description" content="<?php wp_title(); ?> - <?php echo substr($new_content, 0, 60);?> - <?php bloginfo('name'); ?>"  /> 
 	<?php endwhile; endif; elseif(is_home()) : ?>
 <meta name="description" content="<?php wp_title(); ?> - <?php bloginfo('description'); ?>" />
 	<?php endif; ?>
